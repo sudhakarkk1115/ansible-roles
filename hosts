@@ -1,11 +1,11 @@
 [dev]
-172.31.86.113
+172.31.24.202
 [uat]
 172.31.6.192
 [pt]
 [pre-prod]
 [prod]
-172.31.91.113
+172.31.24.54
 
 [all:vars]
 ansible_user=ec2-user
