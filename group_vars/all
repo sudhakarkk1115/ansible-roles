@@ -1,5 +1,5 @@
 ##### Tomcat variables
-java_version: 1.8.0
+java_version: 11
 tomcat_path: "/opt/tomcat"
 tomcat_version: "10.1.28"
 context_path: "{{tomcat_path}}/webapps/manager/META-INF/"
@@ -12,7 +12,7 @@ nexus_repo: sk-devops-repo
 nexus_appname: myapp1
 
 ##### Dotnet variables
-app_name: "dvsazbatch1"
+app_name: "skitdevopsbatch1"
 dotnet_service_account: "root"
 dotnet_path: "/opt/dotnet"
 dotnet_version: "6.0"
