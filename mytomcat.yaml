@@ -1,5 +1,5 @@
 ---
 - name: Installing tomcat
-  hosts: "{{ ENV }}"
+  hosts: "{{ env }}"
   roles:
     - tomcat
